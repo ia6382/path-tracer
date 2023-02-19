@@ -11,7 +11,7 @@ A path tracer framework written in C# was provided to us in order to implement t
   * (*PhongBlinn.cs*) Blinn-Phong model
   * (*SpecularReflection.cs*) specular reflection model
 
-The GIF below demonstrates the rendering process of a simple scene with a dimension of 160x160 pixels. Walls' model is Lambertian, the front ball has a specular reflection model and the ball in the back has the Blinn-Phong model. This first iteration traces 25600 paths. As more paths are traced the noise is reduced and the scene becomes more realistic.
+The GIF below demonstrates the rendering process of a simple scene with a dimension of 160x160 pixels. Walls' model is Lambertian, the front ball has a specular reflection model and the green ball in the back has the Blinn-Phong model. This first iteration traces 25600 paths. As more paths are traced the noise is reduced and the scene becomes more realistic.
 * *Note that the framework is capable of parallel rendering but we turned it off for this demonstration.*
 
 ![demo](demo.gif)
